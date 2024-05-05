@@ -11,21 +11,22 @@ import { GrLocation } from "react-icons/gr";
 import { useEffect } from 'react';
 const Navbar = () => {
 
-  const {isdark , setisdark , setislogin , Location} = useContext(Context)
+  // const {isdark , setisdark , setislogin , Location} = useContext(Context)
+  const {setislogin , Location} = useContext(Context)
   
   const navigate = useNavigate();
   const body = document.body;
 
-  const modetoggle=()=>{
-    if(body.classList.contains("light")){
-      body.classList.remove("light");
-      setisdark(!isdark)
-    }
-    else{
-      body.classList.add("light");
-      setisdark(!isdark)
-    }
-  }
+  // const modetoggle=()=>{
+  //   if(body.classList.contains("light")){
+  //     body.classList.remove("light");
+  //     setisdark(!isdark)
+  //   }
+  //   else{
+  //     body.classList.add("light");
+  //     setisdark(!isdark)
+  //   }
+  // }
 
   
 
@@ -73,7 +74,7 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        {
+        {/* {
           !isdark ? (<button
             className="shadow-5xl font-medium font-poppins hover:text-[#01796f] transition-transform nav"
             onClick={()=>{modetoggle()}}
@@ -85,7 +86,7 @@ const Navbar = () => {
             >
               <i class="fi fi-br-brightness"></i>
             </button>)
-        }
+        } */}
         
         </div>
         <div className='md:flex hidden gap-[5vh] items-center'>
@@ -118,7 +119,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <div className='md:hidden flex items-center gap-[5vh]'>
-        {
+        {/* {
           !isdark ? (<button
             className="shadow-5xl font-medium font-poppins hover:text-[#01796f] transition-transform nav"
             onClick={()=>{modetoggle()}}
@@ -130,7 +131,7 @@ const Navbar = () => {
             >
               <i class="fi fi-br-brightness"></i>
             </button>)
-        }
+        } */}
           <button className=' font-medium font-poppins hover:text-[#01796f] transition-transform'>
           <i class="fi fi-br-menu-burger text-xl"></i>
           </button>
