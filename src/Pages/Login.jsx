@@ -95,11 +95,11 @@ const Login = () => {
       {loading && <Loading />}
       <div className="flex py-4 md:px-[8vw] justify-center ">
         <div className="w-[80vw] h-[85vh]  z-10 md:flex hidden">
-          <img
+          {/* <img
             src={isdark ? poster : posterlight}
             alt=""
             className=" object-cover  "
-          />
+          /> */}
         </div>
 
         {/* Login Cred */}

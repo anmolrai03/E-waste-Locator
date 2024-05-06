@@ -1,6 +1,6 @@
 import React from 'react'
 import Wrapper from './Wrapper'
-import Logo from "../assets/echakra.png";
+import Logo from "../assets/e-wastelogo.png";
 import gsap from 'gsap';
 import { useState } from 'react';
 import {useContext } from 'react';
@@ -36,7 +36,7 @@ const Navbar = () => {
       <div className='justify-between items-center flex h-[15vh]'>
         {/* Logo */}
         <div className='flex gap-2 cursor-pointer' onClick={()=>navigate('/')}>
-        <img src={Logo} alt="logo" className='h-[20vh]'/>
+        <img src={Logo} alt="logo" className='h-[10vh]'/>
         </div>
         
         {/* <div className='absolute bg-red-400 w-fit'></div> */}
@@ -58,13 +58,13 @@ const Navbar = () => {
             >
               <a>About</a>
             </li>
-            <li
+            {/* <li
               className="font-semibold font-montserrat hover:text-[#01796f] cursor-pointer nav"
               onClick={()=>document.getElementById("contact").scrollIntoView({behavior:"smooth"})}
               
             >
               <a>Education</a>
-            </li>
+            </li> */}
             <li
               className="font-semibold font-montserrat hover:text-[#01796f] cursor-pointer nav"
               onClick={()=>document.getElementById("contact").scrollIntoView({behavior:"smooth"})}
@@ -72,6 +72,13 @@ const Navbar = () => {
             >
               <a>Contact</a>
             </li>
+            {/* <li
+              className="font-semibold font-montserrat hover:text-[#01796f] cursor-pointer nav"
+              onClick={() => navigate("/contact")}
+              
+            >
+              <a>Contact</a>
+            </li> */}
           </ul>
         </nav>
         {/* {

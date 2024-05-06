@@ -142,7 +142,8 @@ const Poster = () => {
         <div className="hidden md:flex w-full justify-center ">
           
           <img
-            src={isdark ? (poster) : (posterlight)}
+            // src={isdark ? (poster) : (posterlight)}
+            src={(posterlight)}
             alt=""
             className="h-[78vh] bg-cover bg-center "
           />
