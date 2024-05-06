@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/echakra.png";
+import Logo from "../assets/e-wastelogo.png";
 
 const Footer = () => {
   return (
@@ -30,12 +30,12 @@ const Footer = () => {
             >
               <a>About |</a>
             </li>
-            <li
+            {/* <li
               className="font-semibold font-montserrat hover:text-[#ff5757] cursor-pointer"
               onClick={()=>document.getElementById("contact").scrollIntoView({behavior:"smooth"})}
             >
               <a>Education |</a>
-            </li>
+            </li> */}
             <li
               className="font-semibold font-montserrat hover:text-[#ff5757] cursor-pointer"
               onClick={()=>document.getElementById("contact").scrollIntoView({behavior:"smooth"})}

@@ -54,14 +54,14 @@ const Homepage = () => {
         width : 1100,
         delay : 1
       })
-      gsap.to(".garbagetruck" ,{            
-          opacity :100,
-          x:1500,
-          duration :100,
-          ease : "power3.out",
-          repeat : -1,
-          repeatDelay: 1,
-      })
+      // gsap.to(".garbagetruck" ,{            
+      //     opacity :100,
+      //     x:1500,
+      //     duration :100,
+      //     ease : "power3.out",
+      //     repeat : -1,
+      //     repeatDelay: 1,
+      // })
 
       Draggable.create(".spin", { inertia: true, type: "rotation", bounds: "body" });
     }, [])
@@ -76,18 +76,18 @@ const Homepage = () => {
 
   return (
     <Wrapper>
-      {ispopup ? <Popup/> : null}
+      {/* {ispopup ? <Popup/> : null} */}
       <Poster/>
-      <div className="hidden md:flex w-full fixed bottom-[-4vh]  z-40  garbagetruck">
+      {/* <div className="hidden md:flex w-full fixed bottom-[-4vh]  z-40  garbagetruck">
           <img
             src={map}
             alt=""
             className="h-[20vh] bg-cover bg-center rounded-xl"
           />
-        </div>
+        </div> */}
       <About/>
       <Prodedure/>
-      <Contact/>
+      {/* <Contact/> */}
     </Wrapper>
   )
 }
