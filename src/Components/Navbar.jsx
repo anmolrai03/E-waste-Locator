@@ -9,8 +9,10 @@ import { useNavigate } from 'react-router-dom';
 import { BiCoinStack } from "react-icons/bi";
 import { GrLocation } from "react-icons/gr";
 import { useEffect } from 'react';
+import Footer from './Footer';
 const Navbar = () => {
 
+  // const footer = document.getElementById('footer');
   // const {isdark , setisdark , setislogin , Location} = useContext(Context)
   const {setislogin , Location} = useContext(Context)
   
@@ -67,7 +69,7 @@ const Navbar = () => {
             </li> */}
             <li
               className="font-semibold font-montserrat hover:text-[#01796f] cursor-pointer nav"
-              onClick={()=>document.getElementById("contact").scrollIntoView({behavior:"smooth"})}
+              onClick={()=>document.getElementById("footer").scrollIntoView({behavior:"smooth"})}
               
             >
               <a>Contact</a>

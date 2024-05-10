@@ -7,7 +7,7 @@ import poster from "../assets/postergif.gif";
 import posterlight from "../assets/Posterlightgif.gif";
 import bgdark from "../assets/homebg.png";
 import bg from "../assets/homebglight.png";
-import map from "../assets/MAP.gif" ;
+import map from "../assets/map1.jpg" ;
 import { useNavigate } from "react-router-dom";
 
 const Poster = () => {
@@ -112,10 +112,10 @@ const Poster = () => {
           />
         </div>
         <div  className="postercard w-full h-fit  mt-[5vh] shadow-3xl rounded-xl p-[3vh]  other md:ml-5 mb-10 z-10 searchtext ">
-          <h1 className="md:text-[5vh] text-[5vh] font-montserrat  font-bold">
-            Welcome To Echakran
+          <h1 className="md:text-[5vh] text-[5vh] font-montserrat  font-bold ">
+            E-waste Locator
           </h1>
-          <p className=" text-gray-400 text-lg font-montserrat font-medium">
+          <p className=" text-gray-400 text-lg font-montserrat font-medium decoration-blue-300 underline decoration-sky-500">
           In an effort to combat the growing issue of electronic waste (e-waste), our project is dedicated to responsible recycling and disposal. We provide convenient drop-off locations for old electronics, ensuring they are recycled or refurbished, reducing environmental impact and promoting a sustainable future.
           </p>
 
