@@ -51,7 +51,7 @@ const SearchMap = () => {
     const handleSearch = async (unitaddress) => {
       try {
         // Remove the previous marker, if it exists
-        if(marker){
+        if(marker){//comment
            marker.remove();        
         }
   
