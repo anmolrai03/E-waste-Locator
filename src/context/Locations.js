@@ -1,7 +1,42 @@
 const Locations = [
     {
+        name:'Koscove E Waste Pvt Ltd',
+        address: 'A2 /131, Kashna Rd, Kasna, Industrial Area, Block A, Surajpur Site V, Greater Noida, Uttar Pradesh 201310',
+        capacity: 156
+    },
+    {
+        name:'SIMS Recycling Solutions India Private Limited',
+        address: 'Plot No. 1, Udyog Kendra 2, Extn-2, Ecotech III, Greater Noida, Habibpur, Uttar Pradesh 201306',
+        capacity: 156
+    },
+    {
+        name:'World Green E Waste Recycling Management',
+        address: 'Sector 10, C Block, Sector - 106, Noida, Uttar Pradesh 201010',
+        capacity: 156
+    },
+    {
+        name:'Hindustan E-waste Management Pvt. ',
+        address: '8, Central Rd, Jangpura, Bhogal, New Delhi, Delhi 110014',
+        capacity: 156
+    },
+    {
+        name:'GreenTek Reman Private Limited',
+        address: ' B2, 12, Block B, UPSIDC Site B, Surajpur, Greater Noida, Uttar Pradesh 201306',
+        capacity: 156
+    },
+    {
         name:'E Waste Recyclers INDIA',
         address: 'Okhla Industrial Area Phase 1, DelhiA-46, Okhla Industrial Area Phase 1, Delhi - 110020 (Near Crown Plaza)',
+        capacity: 234
+    },
+    {
+        name:'Ecosense E Waste Management LLP',
+        address: 'Ground Floor, E, 36, Chaura Raghunathpur, Raghunathpur, Sector 22, Noida, Uttar Pradesh 201301',
+        capacity: 234
+    },
+    {
+        name:'Techchef Ewaste Solutions Pvt Ltd',
+        address: 'Top Floor, C-61, DDA Sheds, Pocket A, Okhla Phase I, Okhla Industrial Estate, New Delhi, Delhi 110020',
         capacity: 234
     },
     {
@@ -49,6 +84,13 @@ const Locations = [
         address: '346/58, Ignou Road, Saiyad Ul Ajaib, Delhi - 110030 (Near Mtnl Office)',
         capacity: 156
     },
+    
+    {
+        name:'Auctus E Recycling Solutions Pvt Ltd',
+        address: 'GCMX+WF3, Ecotech III, Habibpur, Uttar Pradesh 201306',
+        capacity: 156
+    },
+    
     
 ];
 
